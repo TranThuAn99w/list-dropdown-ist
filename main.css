@@ -1,0 +1,89 @@
+.ss__bao-gia {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #18191f;
+}
+
+.ss__bao-gia .tabs-mb {
+  width: 500px;
+}
+
+.ss__bao-gia .tabs-mb #btn-show-tabs {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  background: #eeeff4;
+  border: 1px solid black;
+  position: relative;
+}
+
+.ss__bao-gia .tabs-mb #btn-show-tabs .fa-angle-down {
+  position: absolute;
+  right: 20px;
+  overflow: hidden;
+  font-size: 24px;
+}
+
+.ss__bao-gia .tabs-mb #tab-list {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 500px;
+  background-color: #fff;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.ss__bao-gia .tabs-mb #tab-list li {
+  padding: 10px;
+  border-top: 1px solid #fff;
+}
+
+.ss__bao-gia .tabs-mb #tab-list li:hover {
+  background-color: #eeeff4;
+  cursor: pointer;
+}
+
+.ss__bao-gia .tabs-mb .hide {
+  display: none;
+}
+
+.ss__bao-gia .tabs-mb .show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ss__bao-gia .tab-content {
+  display: none;
+  background: white;
+  padding: 20px 0;
+}
+
+.ss__bao-gia .tab-content__text {
+  width: 500px;
+  height: 500px;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+.ss__bao-gia .tab-content__text table tr th,
+.ss__bao-gia .tab-content__text table tr td {
+  padding: 10px 15px;
+}
+
+.ss__bao-gia .tab-content .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ss__bao-gia .tab-content.current {
+  display: inherit;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IST - In to roi</title>
+    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="ss ss__bao-gia">
+        <div class="clearfix">
+            <div class="content">
+                <div class="tabs-mb">
+                    <button id="btn-show-tabs">
+                        <span>Tờ rơi A4</span> <i class="fas fa-angle-down"></i>
+                    </button>
+                    <ul class="tabs hide" id="tab-list">
+                        <li class="tab-link current" data-tab="tab-1">Tờ rơi A4</li>
+                        <li class="tab-link" data-tab="tab-2">Tờ rơi A5</option>
+                    </ul>
+                </div>
+                <div class="container mx-auto">
+                    <div id="tab-1" class="tab-content current">
+                        <div class="flex">
+                            <div class="tab-content__text">
+                                <table>
+                                    <tr>
+                                      <th>Loại giấy</th>
+                                      <th>Số lượng</th>
+                                      <th>Đơn giá</th>
+                                      <th>Tổng tiền</th>
+                                    </tr>
+                                    <!-- 100 -->
+                                    <tr>
+                                      <td>C100</td>
+                                      <td>500</td>
+                                      <td>920</td>
+                                      <td>460.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>C100</td>
+                                      <td>1000</td>
+                                      <td>650</td>
+                                      <td>650.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C100</td>
+                                        <td>2000</td>
+                                        <td>425</td>
+                                        <td>850.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C100</td>
+                                        <td>3000</td>
+                                        <td>420</td>
+                                        <td>1.260.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C100</td>
+                                        <td>5000</td>
+                                        <td>380</td>
+                                        <td>1.900.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C100</td>
+                                        <td>10.000</td>
+                                        <td>325</td>
+                                        <td>3.250.000</td>
+                                    </tr>
+                                    <!-- 150 -->
+                                    <tr>
+                                      <td>C150</td>
+                                      <td>500</td>
+                                      <td>1160</td>
+                                      <td>580.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>C150</td>
+                                      <td>1000</td>
+                                      <td>700</td>
+                                      <td>700.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C150</td>
+                                        <td>2000</td>
+                                        <td>613</td>
+                                        <td>1.225.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C150</td>
+                                        <td>3000</td>
+                                        <td>530</td>
+                                        <td>1.590.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C150</td>
+                                        <td>5000</td>
+                                        <td>430</td>
+                                        <td>2.150.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C150</td>
+                                        <td>10.000</td>
+                                        <td>385</td>
+                                        <td>3.850.000</td>
+                                    </tr>
+                                    <!-- 200 -->
+                                    <tr>
+                                      <td>C200</td>
+                                      <td>500</td>
+                                      <td>2000</td>
+                                      <td>1.000.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>C200</td>
+                                      <td>1000</td>
+                                      <td>1330</td>
+                                      <td>1.330.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C200</td>
+                                        <td>2000</td>
+                                        <td>1015</td>
+                                        <td>2.030.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C200</td>
+                                        <td>3000</td>
+                                        <td>750</td>
+                                        <td>2.250.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C200</td>
+                                        <td>5000</td>
+                                        <td>616</td>
+                                        <td>3.080.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C200</td>
+                                        <td>10.000</td>
+                                        <td>613</td>
+                                        <td>6.125.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-content">
+                        <div class="flex">
+                            <div class="tab-content__text">
+                                <table>
+                                    <tr>
+                                      <th>Loại giấy</th>
+                                      <th>Số lượng</th>
+                                      <th>Đơn giá</th>
+                                      <th>Tổng tiền</th>
+                                    </tr>
+                                    <!-- 100 -->
+                                    <tr>
+                                      <td>C100</td>
+                                      <td>1000</td>
+                                      <td>460</td>
+                                      <td>460.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>C100</td>
+                                      <td>2000</td>
+                                      <td>325</td>
+                                      <td>650.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C100</td>
+                                        <td>4000</td>
+                                        <td>212,5</td>
+                                        <td>850.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C100</td>
+                                        <td>6000</td>
+                                        <td>183,3</td>
+                                        <td>1.100.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C100</td>
+                                        <td>10.000</td>
+                                        <td>165</td>
+                                        <td>1.650.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C100</td>
+                                        <td>20.000</td>
+                                        <td>154</td>
+                                        <td>3.080.000</td>
+                                    </tr>
+                                    <!-- 150 -->
+                                    <tr>
+                                      <td>C150</td>
+                                      <td>1000</td>
+                                      <td>580</td>
+                                      <td>580.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>C150</td>
+                                      <td>2000</td>
+                                      <td>350</td>
+                                      <td>700.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C150</td>
+                                        <td>4000</td>
+                                        <td>250</td>
+                                        <td>1.000.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C150</td>
+                                        <td>6000</td>
+                                        <td>241,7</td>
+                                        <td>1.450.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C150</td>
+                                        <td>10.000</td>
+                                        <td>215</td>
+                                        <td>2.150.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C150</td>
+                                        <td>20.000</td>
+                                        <td>192,5</td>
+                                        <td>3.850.000</td>
+                                    </tr>
+                                    <!-- 250 -->
+                                    <tr>
+                                      <td>C250</td>
+                                      <td>1000</td>
+                                      <td>1000</td>
+                                      <td>1.000.000</td>
+                                    </tr>
+                                    <tr>
+                                      <td>C250</td>
+                                      <td>2000</td>
+                                      <td>650</td>
+                                      <td>1.300.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C250</td>
+                                        <td>4000</td>
+                                        <td>507,5</td>
+                                        <td>2.030.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C250</td>
+                                        <td>6000</td>
+                                        <td>375</td>
+                                        <td>2.250.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C250</td>
+                                        <td>10.000</td>
+                                        <td>310</td>
+                                        <td>3.100.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C250</td>
+                                        <td>20.000</td>
+                                        <td>308,3</td>
+                                        <td>6.165.000</td>
+                                    </tr>
+                                  </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="style.js"></script>    
+</body>
+</html>
